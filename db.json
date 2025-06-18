@@ -4,5 +4,26 @@
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
-  ]
+  ],
+  "get-member": [
+    {
+        "actionName": "POS_Get_Membership_Info_Postas",
+        "errors": null,
+        "invocationId": null,
+        "isSuccess": true,
+        "outputValues": {
+            "Status": 3,
+            "MembershipNumber": "0000000000000000001",
+            "Flow__InterviewGuid": "{{id}}",
+            "MissingData": 0,
+            "TotalPointBalance": 6200,
+            "Flow__InterviewStatus": "Finished",
+            "MemberRank": "Regular",
+            "Birthday": "1980-01-23",
+            "CntchbDate": "2023-10-20"
+        },
+        "sortOrder": -1,
+        "version": 1
+    }
+]
 }
