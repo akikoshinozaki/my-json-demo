@@ -25,5 +25,55 @@
         "sortOrder": -1,
         "version": 1
     }
-]
+],
+  "give-point": {
+    "message": null,
+    "processResult": {
+        "memberPointsBalance": [
+            {
+                "memberCurrencies": [
+                    {
+                        "currencyName": "期間限定ポイント",
+                        "currencyType": "NonQualifying",
+                        "escrowPointsBalance": 0.0,
+                        "pointsBalance": 0.0
+                    },
+                    {
+                        "currencyName": "通常ポイント",
+                        "currencyType": "NonQualifying",
+                        "escrowPointsBalance": 0.0,
+                        "pointsBalance": 100.0
+                    }
+                ],
+                "memberShipNumber": "0000000000000000101"
+            }
+        ],
+        "transactionJournalResult": [
+            {
+                "badgesAssigned": [],
+                "changeInMemberPoints": [
+                    {
+                        "changeInMemberCurrencies": [
+                            {
+                                "changeInPointsBalance": 100.0,
+                                "currencyName": "通常ポイント",
+                                "currencyType": "NonQualifying",
+                                "promotionId": ""
+                            }
+                        ],
+                        "memberShipNumber": "0000000000000000101"
+                    }
+                ],
+                "gamesAssigned": [],
+                "id": "0lVIp000000N2JXMA0",
+                "voucherResult": {
+                    "vouchersIssued": []
+                }
+            }
+        ]
+    },
+    "programName": "MPC",
+    "simulationResults": null,
+    "status": true
+}
 }
